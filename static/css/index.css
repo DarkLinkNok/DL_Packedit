@@ -1,0 +1,38 @@
+#rin-main {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    margin-top: calc(50vh - 200px);
+}
+@media (max-width: 600px){
+    #rin-main {
+        width: 95%;
+    }
+}
+#rin-headimg{
+    height: 90px;
+}
+
+.rin-name{
+    margin-top: 20px;
+    color:rgb(235, 61, 18);
+    font-size: 26px;
+    font-weight: 700;
+    text-shadow: 0 0 8px rgba(2, 94, 231, 0.55);
+}
+.rin-description{
+    color:rgba(226, 230, 19, 0.726);
+    text-shadow: 0 0 8px rgba(228, 220, 220, 0.55);
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    letter-spacing:8px;
+}
+.rin-btn {
+    color:rgb(27, 207, 231);
+    margin: 10%;
+    height: 60px;
+    margin-top: 40px;
+    font-style: normal;
+    font-size: 30px;
+}
